@@ -1,0 +1,118 @@
+body{
+    background-image:url("bg.avif");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    padding:0;
+    margin:0;
+}
+div#main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#welcome{
+    text-align:center;
+    margin-top:50px;
+    text-transform: capitalize;
+    font-size:70px;
+}
+input{
+    width:200px;
+    border-radius:10px;
+    border:2px solid black;
+    font-family:'Courier New', Courier, monospace;
+    text-transform:capitalize;
+    text-align:center;
+}
+#me{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    font-weight:bold;
+    margin:30px;
+}
+div#main2{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#div1{
+    cursor:pointer;
+    padding:5px;
+    width:250px;
+    height:250px;
+    font-size:large;
+    font-weight:bolder;
+    line-height:25px;
+    transition:all 1s;
+    transition-timing-function:ease-in-out;
+    box-shadow:10px 10px 5px black ;
+}
+#div1:hover{
+background:rgba(255, 255, 255, 0.527);
+transform:translate(60px,20px);
+}
+a{
+    color:black;
+}
+#div2{
+    width:300px;
+    height:200px;
+    transition:transform 1s;
+    transition-timing-function: ease-in-out;
+    border:1px solid black;
+    outline:1px solid black;
+    outline-offset: 2px;
+}
+#div2:hover{
+    transform: scale(1.2);
+}
+#div3{
+    width:300px;
+    height:200px;
+    transition:transform 1s;
+    transition-timing-function: ease-in-out;
+    border:1px solid black;
+    outline:1px solid black;
+    outline-offset: 2px;
+}
+#div3:hover{
+    transform: scale(1.2);
+}
+#div4{
+    transition:transform 1s;
+    transition-timing-function: ease-in-out;
+    width:300px;
+    height:200px;
+    border:1px solid black;
+    outline:1px solid black;
+    outline-offset: 2px;
+}
+#div4:hover{
+    transform: scale(1.2);
+}
+#main3{
+    padding:20px;
+    width:400px;
+    color:black;
+    font-weight:bolder;
+    font-size:x-large;
+    margin:30px auto;
+    background:lightgrey;
+    box-shadow:10px 10px 8px black;
+    background-image:url(click.gif);
+    background-position: center;
+    background-size:340px;
+}
+#sports,#fitness,#movies{
+    text-decoration:none;
+}
+ol li{
+    list-style-type:disc;
+}
+footer{
+    margin-top:100px;
+    margin-bottom:5px;
+    text-align: center;
+}

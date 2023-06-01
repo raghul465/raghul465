@@ -1,0 +1,35 @@
+body{
+    background-image:linear-gradient(to right,rgba(255, 0, 0, 0.377),rgba(0, 0, 255, 0.404));
+}
+div#div1{
+    background:rgba(0, 0, 0, 0.055);
+    border:1px solid black;
+    color:black;
+    font-weight:bold;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:justify;
+    transition:all 1.2s;
+}
+div#div1:hover{
+background-color:rgb(248, 211, 211);
+cursor:pointer;
+}
+#div2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+#advent,#cmdy,#drama,#horror,#sci,#fantasy{
+    margin:30px;
+    height:300px;
+    font-weight:bolder;
+    text-align:center;
+    padding:10px;
+    border-radius:4px;
+    border:1px solid black;
+    transition:all 1.2s;
+}
+#advent:hover,#cmdy:hover,#drama:hover,#horror:hover,#sci:hover,#fantasy:hover{
+    transform:scale(1.1);
+}
