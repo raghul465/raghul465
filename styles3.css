@@ -25,6 +25,7 @@ p#def:hover{
     cursor:pointer;
 }
 div#flex{
+    margin:0px 50px;
     display:flex;
     flex-wrap:wrap;
 }
