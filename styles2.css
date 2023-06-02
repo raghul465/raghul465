@@ -3,7 +3,7 @@ body{
     background-image:url("bg6.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    background-position:-100px ;
+    background-position:center ;
 }
 p{
     font-weight: bolder;
