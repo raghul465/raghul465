@@ -2,7 +2,7 @@ body{
     background-image: url("bg7.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:0 -200ox;
 }
 h1{
 font-size:80px;
